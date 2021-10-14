@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maps</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="normalizador.css">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/423364dfa5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Primer pantalla -->
+
+    <div id="pagina1">
+      <button onclick="ubicacion()" class="boton btn btn-primary">Activa tu ubicación</button>
+    </div>
+
+    <!-- Segunda pantalla -->
+
+    <div id="pagina2">
+      <button onclick="viajar()" class="boton btn btn-success">Viajar!</button>
+    </div>
+
+
+    <!-- Tercera pantalla -->
+
+    <div id="pagina3" >
+      <iframe
+        id="map"
+        style="border: 0"
+        loading="lazy"
+        frameborder="0"
+        allowfullscreen
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBzTDYgMmrq35_6Z0Z19thTF-FPhd7eFMU
+        &q=Venado Tuerto, Santa Fe Province, Argentina"
+      >
+      </iframe>
+  </div>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>

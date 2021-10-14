@@ -1,0 +1,42 @@
+body {
+	background-image: url('img/carretera.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#map {
+	height: 100vh;
+	width: 100vw;
+}
+
+#pagina1{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#pagina2{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+#pagina3{
+	display: none;
+}
+
+.btn{
+	font-size: 5rem;
+}
+
+@media (max-width: 767px){
+	.btn{
+		font-size: 20rem;
+	}
+}
